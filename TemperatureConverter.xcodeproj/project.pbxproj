@@ -16,6 +16,7 @@
 		5F8433A029C08FC500E23238 /* TemperatureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84339F29C08FC500E23238 /* TemperatureConverterTests.swift */; };
 		5F8433AA29C08FC500E23238 /* TemperatureConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8433A929C08FC500E23238 /* TemperatureConverterUITests.swift */; };
 		5F8433AC29C08FC500E23238 /* TemperatureConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8433AB29C08FC500E23238 /* TemperatureConverterUITestsLaunchTests.swift */; };
+		5F8433B929C0997500E23238 /* CelsiusConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8433B829C0997500E23238 /* CelsiusConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5F8433A529C08FC500E23238 /* TemperatureConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8433A929C08FC500E23238 /* TemperatureConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterUITests.swift; sourceTree = "<group>"; };
 		5F8433AB29C08FC500E23238 /* TemperatureConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F8433B829C0997500E23238 /* CelsiusConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelsiusConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5F84339129C08FC500E23238 /* Assets.xcassets */,
 				5F84339329C08FC500E23238 /* LaunchScreen.storyboard */,
 				5F84339629C08FC500E23238 /* Info.plist */,
+				5F8433B829C0997500E23238 /* CelsiusConverter.swift */,
 			);
 			path = TemperatureConverter;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F84338D29C08FC500E23238 /* ViewController.swift in Sources */,
+				5F8433B929C0997500E23238 /* CelsiusConverter.swift in Sources */,
 				5F84338929C08FC500E23238 /* AppDelegate.swift in Sources */,
 				5F84338B29C08FC500E23238 /* SceneDelegate.swift in Sources */,
 			);
